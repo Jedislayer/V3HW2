@@ -4,41 +4,74 @@
     <title>V3HW2</title>
   </head>
   <body>
-    <table>
+    <table border width="100%">
       <tr>
-        <th>Имя</th>
-        <th>Фамилия</th>
+        <th>Ім'я</th>
+        <th>Прізвище</th>
         <th>Телефон</th>
         <th>Email</th>
       </tr>
       <tr>
-        <td>Степан</td>
-        <td>Маша</td>
-        <td>Андрей</td>
-        <td>Игорь</td>
+          <td>Ім'я1</td>
+          <td>Прізвище1</td>
+          <td>00-111-22-11</td>
+          <td>00-111-22-11@gmail.com</td>
       </tr>
       <tr>
-        <td>Фам1</td>
-        <td>Фам2</td>
-        <td>Фам3</td>
-        <td>Фам4</td>
+          <td>Ім'я2</td>
+          <td>Прізвище2</td>
+          <td>00-111-22-22</td>
+          <td>00-111-22-22@gmail.com</td>
       </tr>
       <tr>
-        <td>1234</td>
-        <td>1324</td>
-        <td>1423</td>
-        <td>2134</td>
+          <td>Ім'я3</td>
+          <td>Прізвище3</td>
+          <td>00-111-22-33</td>
+          <td>00-111-22-33@gmail.com</td>
       </tr>
       <tr>
-        <td>1234@gmail.com</td>
-        <td>1324@gmail.com</td>
-        <td>1423@gmail.com</td>
-        <td>2134@gmail.com</td>
+          <td>Ім'я4</td>
+          <td>Прізвище4</td>
+          <td>00-111-22-44</td>
+          <td>00-111-22-44@gmail.com</td>
       </tr>
-    </table>
-    <input type="text" placeholder="Введите Ваше имя">
-    <div>
-      <input type="text" placeholder="Введите Вашу фамилию">
-    </div>
+      <tr>
+          <td>Ім'я5</td>
+          <td>Прізвище5</td>
+          <td>00-111-22-55</td>
+          <td>00-111-22-55@gmail.com</td>
+      </tr>
+  </table>
+  <p>Введіть ваше Ім'я та Прізвище</p>
+  <input type="text" placeholder="Введіть ваше Ім'я" />
+  <input type="text" placeholder="Введіть ваше Прізвище" />
+  <p>Оберіть вашу стать:</p>
+  <input type="radio" id="male" name="gender" value="male" checked>
+  <label for="male">Чоловіча</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Жіноча</label>
+  <input type="radio" id="refuse" name="gender" value="refuse">
+  <label for="refuse">Не хочу вказувати</label> 
+  <p>Форма зворотнього зв'язку:</p>
+  <textarea placeholder="Зворотній зв'язок"></textarea>
+  <p>Вкажіть зручні для вас мови:</p>
+  <input type="checkbox" id="language1" name="language1" value="Українська">
+  <label for="language1"> Українська</label>
+  <input type="checkbox" id="language2" name="language2" value="English">
+  <label for="language2"> English</label>
+  <input type="checkbox" id="language3" name="language3" value="Polska">
+  <label for="language3"> Polska</label>
+  <input type="checkbox" id="language4" name="language4" value="Русский">
+  <label for="language4"> Русский</label>
+  <p><label for="city">Оберіть місто:</label></p>
+  <select name="city" id="city">
+    <option value="" disabled selected hidden>Вибрати місто</option>
+    <option value="Київ">Київ</option>
+    <option value="Луцьк">Луцьк</option>
+    <option value="Ужгород">Ужгород</option>
+    <option value="Житомир">Житомир</option>
+    <option value="Інше">Інше</option>
+  </select>
+  <p><button>Submit</button></p>
   </body>
 </html>
